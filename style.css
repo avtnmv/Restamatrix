@@ -12,6 +12,7 @@ header {
     background-size: cover;
     background-position: center center; 
     height: 760px; 
+    margin-bottom: 64px;
 }
 body.no-scroll {
     overflow: hidden;
@@ -226,7 +227,59 @@ margin-bottom: 20px;
 }
 .herosection{
 display: flex;
+}
 
+.main-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 116px;
+    height: 36px;
+    justify-content: center;
+    color: #6F33E4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: auto;
+    border-radius: 24px;
+    border: 1px solid  #D6D6D6;
+    background: #F5F5F5;
+    margin-bottom: 24px;
+}
+.about-us-motto{
+    color: #08111F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 68px */
+    letter-spacing: -1.36px;
+    margin-bottom: 24px;
+}
+.about-us-p{
+    color: #08111F;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 503px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+.about-us-img{
+    width: 1200px;
+    height: 592px;
+    margin-top: 29px;
+    border-radius: 24px;
+    box-shadow: 0 0 20px 10px rgba(111, 51, 228, 0.1); 
+    margin-bottom: 45px;
 }
 @media (max-width: 900px) {  
     .burger-icon {
@@ -280,5 +333,18 @@ display: flex;
         background-image: none;
         background: linear-gradient(104deg, #0F002C 0%, #1E0058 100%);
         height: auto;
+      }
+      .about-us-motto{
+        font-size: 52px;
+      }
+      .about-us-p{
+        width: 320px;
+      }
+      .about-us-img{
+        display: block;
+        width: 320px;
+        height: 158px;
+        margin: auto;
+        margin-top: 24px;
       }
 }
