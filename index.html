@@ -465,9 +465,49 @@
                 </div>
 
             </section>
+
+            <section class="input-form-section">
+                <div class="input-form-container main-container">
+                    <img src="./assets/logo-input-form.svg" alt="logo-input" class="logo-input-form">
+
+                    <h2 class="input-form-motto">Готові почати з Restamatrix?</h2>
+
+                    <p class="input-form-p">Отримайте доступ до інструменту, який зробить ваш бізнес ефективнішим!</p>
+
+                    <div class="input-form">
+
+                            <div class="form-container">
+                                <h2 class="form-heading">Замовте демо-версію прямо зараз</h2>
+                                <form action="https://usebasin.com/f/8b1b80acc5d1" method="POST" id="requestForm">
+                                  <div class="text-field">
+                                    <input class="text-field__input" type="text" id="name" name="name" placeholder="Ваше ім’я" required pattern="[A-Za-zА-Яа-яЇїЄєІіҐґ'’ ]+" title="Ім’я не може містити цифр">
+                                    <label class="text-field__label" for="name">Ім’я</label>
+                                  </div>
+                                  <div class="text-field">
+                                    <input class="text-field__input" type="text" id="surname" name="surname" placeholder="Ваше прізвище" required pattern="[A-Za-zА-Яа-яЇїЄєІіҐґ'’ ]+" title="Прізвище не може містити цифр">
+                                    <label class="text-field__label" for="surname">Прізвище</label>
+                                  </div>
+                                  <div class="text-field">
+                                    <input class="text-field__input" type="email" id="email" name="email" placeholder="Ваш email" required>
+                                    <label class="text-field__label" for="email">Email</label>
+                                  </div>
+                                  <div class="text-field">
+                                    <input class="text-field__input" type="tel" id="phone" name="phone" placeholder="+38 (XX) XXX-XX-XX" required pattern="[0-9]+" title="Телефон повинен містити тільки цифри">
+                                    <label class="text-field__label" for="phone">Телефон</label>
+                                  </div>
+                                  <input class="form__submit" type="submit" value="Замовити демо">
+                                </form>
+                              </div>
+                        
+                        
+                          </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </div>
 
     <script src="./burger-menu.js"></script>
+    <script src="./form-input.js"></script>
 </body>
 </html>
