@@ -14,6 +14,7 @@ header {
     height: 760px; 
     margin-bottom: 64px;
 }
+
 body.no-scroll {
     overflow: hidden;
 }
@@ -247,9 +248,11 @@ margin-bottom: 20px;
   fill: #FFF;
 }
 .herosection-second-img{
+  display: block;
     width: 600px;
     height: 531px;
 }
+
 .herosection{
 display: flex;
 }
@@ -353,7 +356,6 @@ display: flex;
   &:hover{
     transform: scale(1.03);
   }
-
 }
 .benefits-first-img{
   width: 172px;
@@ -660,7 +662,7 @@ height: 196px;
 }
 .how-it-work-two{
   padding-top: 64px;
-  padding-bottom: 64px;
+  padding-bottom: 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -698,6 +700,139 @@ height: 196px;
 }
 .bold-light{
   font-weight: 500;
+}
+.security{
+  margin-top: 48px;
+}
+.heading-security{
+  width: 181px;
+  height: 36px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  border: 1px solid #D6D6D6;
+  background: #F5F5F5;
+  color: #6F33E4;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: auto;
+  margin-bottom: 32px;
+}
+.security-motto{
+  color: #08111F;
+  text-align: center;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96%; /* 65.28px */
+  letter-spacing: -1.36px;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 48px;
+}
+
+.security-container-first-content-block-one{
+  width: 386.5px;
+  display: flex;
+  padding: 66px 32px;
+  border-radius: 24px;
+  background: linear-gradient(112deg, #1E0058 1.04%, #0F002C 99.46%);
+  height: 224px;
+  transition: transform 0.3s ease-in-out;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.security-info{
+  display: flex;
+  gap: 8px;
+}
+.security-info p{
+  width: 286.5px;
+}
+.security-container-first-content-block-two{
+  width: 386.5px;
+  display: flex;
+  padding: 56px 32px;
+  border-radius: 24px;
+  background: linear-gradient(112deg, #1E0058 1.04%, #0F002C 99.46%);
+  height: 224px;
+  transition: transform 0.3s ease-in-out;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.security-container-first-content{
+  display: flex;
+  gap: 20px;
+}
+.security-container-first{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.security-info-two{
+  display: flex;
+  gap: 8px;
+}
+.security-info-two p{
+  width: 384px;
+}
+.security-first-img{
+  width: 176px;
+  height: 176px;
+}
+.security-container-second{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-radius: 24px;
+  background: linear-gradient(99deg, #1E0058 1.23%, #0F002C 98.62%);
+  width: 793px;
+  justify-content: space-between;
+  padding: 32px;
+  transition: transform 0.3s ease-in-out;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.security-container-third{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 24px;
+  gap: 35px;
+  background: linear-gradient(99deg, #1E0058 1.23%, #0F002C 98.62%);
+  width: 387px;
+  justify-content: space-between;
+  padding: 32px;
+  transition: transform 0.3s ease-in-out;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.security-info-three{
+  display: flex;
+  gap: 8px;
+}
+.security-info-three p{
+  width: 287px;
+}
+.security-second-img{
+  width: 254px;
+  height: 257px;
+}
+.security-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 96px;
 }
 @media (max-width: 900px) {  
     .burger-icon {
@@ -908,5 +1043,49 @@ height: 196px;
         width: 320px;
         height: 297px;
         margin-top: 32px;
+      }
+      .security-motto{
+        font-size: 52px;
+        width: 320px;
+        margin-bottom: 32px;
+      }
+      .security-container-first-content {
+        gap: 16px;
+        flex-direction: column;
+      }
+      .security-container-first-content-block-one{
+        width: 320px;
+        padding: 32px;
+        height: 196px;
+      }
+      .security-info p {
+        width: 220px;
+      }
+      .security-container-first-content-block-two{
+        width: 320px;
+        padding: 32px;
+        height: 236px;
+      }
+      .security-container-second{
+        width: 320px;
+      }
+      .security-info-two p{
+        width: 220px;
+      }
+      .security-container{
+        flex-direction: column;
+        gap: 16px;
+      }
+      .security-container-third{
+        width: 320px;
+      }
+      .security-info-three p{
+        width: 220px;
+      }
+      .security-container-first{
+        gap: 16px;
+      }
+      .security-container{
+        margin-bottom: 64px;
       }
 }
