@@ -876,11 +876,13 @@ height: 196px;
         flex-direction: column;
         gap: 16px;
       }
-      .how-it-work-heading{
+      .how-it-work-heading {
         margin-bottom: 32px;
-      }
-      .how-it-work{
-        gap: 0;
+        font-size: 52px;
+        width: 210px;
+        margin: auto;
+        margin-bottom: auto;
+        margin-bottom: 32px;
       }
       .how-it-work-two{
         flex-direction: column;
