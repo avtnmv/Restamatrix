@@ -984,7 +984,7 @@ margin-bottom: 96px;
 
 
 
-@media (max-width: 900px) {  
+@media (max-width: 1200px) {  
     .burger-icon {
       display: block;
       width: 35px;
@@ -1261,8 +1261,8 @@ margin-bottom: 96px;
         width: 256px;
         margin: auto;
       }
-      .text-field__label{
-        left: 2.75rem;
+      .text-field__label {
+        left: 0.75rem;
       }
       .form-heading{
         width: 200px;
