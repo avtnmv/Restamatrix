@@ -541,6 +541,7 @@ height: 196px;
   width: 28px;
   border: 1px solid #6F33E4;
   border-radius: 50%;
+  color: #6F33E4;
 }
 .problems-p-container{
   display: flex;
@@ -656,6 +657,47 @@ height: 196px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+.how-it-work-two{
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.how-it-work-two-p div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  width: 28px;
+  border: 1px solid #6F33E4;
+  border-radius: 50%;
+  color: #6F33E4;
+}
+.how-it-work-two-p{
+  display: flex;
+  gap: 12px;
+}
+.how-it-work-two-p p{
+  width: 546px;
+}
+.how-it-work-two-heading{
+  margin-bottom: 24px;
+  width: 430px;
+  font-weight: 500;
+}
+.how-it-work-two-content{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.how-it-work-two-img{
+  width: 590px;
+  height: 551px;
+}
+.bold-light{
+  font-weight: 500;
 }
 @media (max-width: 900px) {  
     .burger-icon {
@@ -839,5 +881,30 @@ height: 196px;
       }
       .how-it-work{
         gap: 0;
+      }
+      .how-it-work-two{
+        flex-direction: column;
+        padding-top: 48px;
+        padding-bottom: 48px;
+      }
+      .how-it-work-two-heading {
+        margin-bottom: 24px;
+        width: 320px;
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        font-weight: 500;
+        margin-bottom: 32px;
+      }
+      .how-it-work-two-content{
+        width: 320px;
+      }
+      .how-it-work-two-p p {
+        width: 276px;
+      }
+      .how-it-work-two-img {
+        width: 320px;
+        height: 297px;
+        margin-top: 32px;
       }
 }
