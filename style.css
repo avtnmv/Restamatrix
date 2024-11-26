@@ -556,6 +556,7 @@ height: 196px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 32px;
 }
 .get-demo-button{
   display: flex;
@@ -572,6 +573,89 @@ height: 196px;
   &:hover{
     background-color: #6F33E4;
   }
+}
+.how-it-work{
+  padding-top: 48px;
+  background: linear-gradient(104deg, #6F33E4 0.26%, #2D0085 100%);
+  padding-bottom: 48px;
+}
+.how-it-work-heading{
+  color: #FFF;
+  text-align: center;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.36px;
+  margin-bottom: 48px;
+}
+.how-it-work-first-text{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.number{
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(180deg, #D6D6D6 0%, rgba(255, 255, 255, 0.50) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 87px;
+  line-height: 87px;
+}
+.how-it-work-first-block{
+  width: 590px;
+  display: flex;
+  border-radius: 24px;
+  background: #FFF;
+  padding: 32px;
+}
+.how-it-work-first-img{
+  width: 290px;
+  height: 222px;
+}
+.how-it-work-bold{
+  color: #08111F;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+.how-it-work-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.how-it-work-p{
+  color: #3D3D3D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.how-it-work-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.how-it-work-second-img{
+  height: 222px;
+}
+.how-it-work-third-img{
+  height: 228px;
+}
+.how-it-work-fourth-img{
+  height: 228px;
+}
+.how-it-work{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 @media (max-width: 900px) {  
     .burger-icon {
@@ -730,5 +814,30 @@ height: 196px;
       }
       .get-demo-button{
         width: 320px;
+      }
+      .how-it-work-content{
+        flex-direction: row;
+        gap: 20px;
+      }
+      .how-it-work-first-block{
+        flex-direction: column;
+        width: 320px;
+        gap: 24px;
+      }
+      .number{
+        line-height: 91px;
+      }
+      .how-it-work-first-img, .how-it-work-second-img, .how-it-work-third-img, .how-it-work-fourth-img{
+        width: 256px;
+      }
+      .how-it-work-container{
+        flex-direction: column;
+        gap: 16px;
+      }
+      .how-it-work-heading{
+        margin-bottom: 32px;
+      }
+      .how-it-work{
+        gap: 0;
       }
 }
