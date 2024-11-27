@@ -1105,6 +1105,7 @@ line-height: normal;
         background-image: none;
         background: linear-gradient(104deg, #0F002C 0%, #1E0058 100%);
         height: auto;
+        padding-bottom: 32px;
       }
       .about-us-motto{
         font-size: 52px;
@@ -1118,6 +1119,7 @@ line-height: normal;
         height: 158px;
         margin: auto;
         margin-top: 24px;
+        border-radius: 6px;
       }
       .benefits-motto{
         font-size: 52px;
@@ -1241,7 +1243,7 @@ line-height: normal;
       .how-it-work-two{
         flex-direction: column;
         padding-top: 48px;
-        padding-bottom: 48px;
+        padding-bottom: 32px;
       }
       .how-it-work-two-heading {
         margin-bottom: 24px;
@@ -1311,6 +1313,7 @@ line-height: normal;
         background-image: url(./assets/request-form-bg-mobile.webp);
         background-position: top;
         height: 880px;
+        margin-bottom: 64px;
       }
       .input-form-motto {
         font-size: 52px;
@@ -1362,5 +1365,8 @@ line-height: normal;
       }
       .faq{
         margin-bottom: 32px;
+      }
+      .security {
+        margin-top: 32px;
       }
 }
