@@ -1053,6 +1053,41 @@ line-height: normal;
 .faq{
   margin-bottom: 64px;
 }
+footer{
+  background: linear-gradient(180deg, #1E0058 0%, #0F002C 100%);
+  padding: 64px 0;
+}
+.footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-links a{
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-social{
+  display: flex;
+  gap: 10px;
+}
+.footer-social-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  width: 48px;
+  height: 48px;
+}
 @media (max-width: 1200px) {  
     .burger-icon {
       display: block;
@@ -1368,5 +1403,18 @@ line-height: normal;
       }
       .security {
         margin-top: 32px;
+      }
+      .footer-container{
+        width: 320px;
+        margin: auto;
+      }
+      .footer-logo{
+        width: 320px;
+        display: block;
+        margin: auto;
+        margin-top: 24px;
+      }
+      footer{
+        padding: 48px 0;
       }
 }
