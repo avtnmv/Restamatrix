@@ -1079,7 +1079,7 @@ footer{
   display: flex;
   gap: 10px;
 }
-.footer-social-link{
+.footer-social-link a{
   display: flex;
   align-items: center;
   justify-content: center;
