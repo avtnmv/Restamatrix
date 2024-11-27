@@ -28,7 +28,7 @@ nav{
     max-width: 1200px;
     margin: auto;
     display: flex;
-    gap: 110px;
+    gap: 24px;
     align-items: center;
     justify-content: center;
     margin-bottom: 64px;
@@ -561,7 +561,7 @@ height: 196px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
 }
 .get-demo-button{
   display: flex;
