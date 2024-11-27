@@ -975,15 +975,82 @@ margin-bottom: 96px;
   cursor: not-allowed;
 }
 
+.accordion {
+  width: 1200px;
+  border-top: 0.5px solid #D6D6D6;
+  border-bottom: 0.5px solid #D6D6D6;
+  overflow: hidden;
+  background-color: #fff;
+}
 
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px; /* Фиксированная высота заголовка */
+  padding: 0 48px;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
+.accordion-header svg {
+  transition: transform 0.3s ease;
+}
 
+.accordion-header.active svg {
+  transform: rotate(-90deg);
+}
 
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, margin-top 0.3s ease; /* Плавное раскрытие */
+  padding: 0 48px; /* Боковые отступы */
+}
 
+.accordion-header.active + .accordion-content {
+  margin-top: -24px; /* Смещение вверх содержимого, чтобы убрать пустое место снизу */
+}
 
-
-
-
+.accordion-content p {
+margin: 0;
+padding-top: 12px;
+padding-bottom: 24px;
+width: 626px;
+color: #000;
+font-family: 'Inter';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.heading-faq{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 172px;
+  height: 36px;
+  justify-content: center;
+  color: #6F33E4;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: auto;
+  border-radius: 24px;
+  border: 1px solid  #D6D6D6;
+  background: #F5F5F5;
+  margin-top: 64px;
+  margin-bottom: 48px;
+}
+.faq{
+  margin-bottom: 64px;
+}
 @media (max-width: 1200px) {  
     .burger-icon {
       display: block;
@@ -1269,5 +1336,29 @@ margin-bottom: 96px;
       }
       .form__submit{
         width: 256px;
+      }
+      .accordion{
+        width: 320px;
+        margin: auto;
+      }
+      .accordion-header{
+        font-size: 18px;
+        padding: 32px 32px;
+        height: 130px;
+      } 
+      .faq-span{
+        width: 192px;
+      }
+      .accordion-header.active + .accordion-content {
+        margin-top: -8px;
+      }
+      .accordion-content{
+        padding: 0 32px;
+      }
+      .accordion-content p{
+        width: 192px;
+      }
+      .faq{
+        margin-bottom: 32px;
       }
 }
