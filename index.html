@@ -501,7 +501,8 @@
                                     <label class="text-field__label" for="email">Email</label>
                                   </div>
                                   <div class="text-field">
-                                    <input class="text-field__input" type="tel" id="phone" name="phone" placeholder="+38 (XX) XXX-XX-XX" required pattern="[0-9]+" title="Телефон повинен містити тільки цифри">
+                                    <input class="text-field__input" type="tel" id="phone" name="phone" placeholder="+38 (XX) XXX-XX-XX" required pattern="\+?[0-9\s()-]*" title="Телефон може містити тільки цифри, пробіли, дужки, дефіси та символ '+' на початку">
+
                                     <label class="text-field__label" for="phone">Телефон</label>
                                   </div>
                                   <input class="form__submit" type="submit" value="Замовити демо">
